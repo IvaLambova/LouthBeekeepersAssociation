@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Louth Beekeepers Association</string>
+
+    <string name="bee_image_description">Representative bee image</string>
+
+    <string name="association_description">Louth Beekeepers Association welcomes everyone fascinated by the bees!</string>
+
+    <string name="website_icon">An icon representing the website of the association</string>
+
+    <string name="website_link">www.louthbeekeeping.com</string>
+
+    <string name="phone_icon">An icon representing the phone number of the association</string>
+
+    <string name="phone_number">+359 893 315 418</string>
+
+    <string name="email_icon">An icon representing the email of the association</string>
+
+    <string name="email_text">lbkasec@gmail.com</string>
+
+    <string name="social_icon">An icon representing the Facebook social page of the association</string>
+
+    <string name="social_link">facebook.com/louthbeekeeping</string>
+
+    <string name="location_icon">An icon representing the location of the association</string>
+
+    <string name="location_text"><u>Teagasc</u></string>
+
+</resources>

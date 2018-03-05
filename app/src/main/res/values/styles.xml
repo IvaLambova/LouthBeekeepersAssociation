@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Parent LinearLayout style -->
+    <style name="ParentLinearLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/amber</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <!-- ImageView style containing the bee image -->
+    <style name="ImageView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:src">@drawable/app_bee</item>
+    </style>
+
+    <!-- TextView style containing the association description -->
+    <style name="TextViewDescription">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/padding_10</item>
+        <item name="android:text">@string/association_description</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/text_size_18</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:typeface">serif</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">@dimen/margin_6</item>
+        <item name="android:background">@drawable/description_text_view_style</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <!-- The second nested LinearLayout style -->
+    <style name="SecondNestedLinearLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_margin">@dimen/margin_6</item>
+        <item name="android:background">@drawable/second_linear_layout_style</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <!-- Website TextView style -->
+    <style name="WebsiteTextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/margin_15</item>
+        <item name="android:autoLink">web</item>
+        <item name="android:linksClickable">true</item>
+        <item name="android:text">@string/website_link</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textSize">@dimen/text_size_16</item>
+        <item name="android:typeface">serif</item>
+        <item name="android:drawableLeft">@drawable/web_icon</item>
+        <item name="android:drawablePadding">@dimen/padding_20</item>
+    </style>
+
+
+    <!-- Phone number TextView style -->
+    <style name="PhoneTextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/margin_15</item>
+        <item name="android:autoLink">phone</item>
+        <item name="android:linksClickable">true</item>
+        <item name="android:text">@string/phone_number</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textSize">@dimen/text_size_16</item>
+        <item name="android:typeface">serif</item>
+        <item name="android:drawableLeft">@drawable/phone_icon</item>
+        <item name="android:drawablePadding">@dimen/padding_20</item>
+    </style>
+
+
+    <!-- Email TextView style -->
+    <style name="EmailTextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/margin_15</item>
+        <item name="android:autoLink">email</item>
+        <item name="android:linksClickable">true</item>
+        <item name="android:text">@string/email_text</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textSize">@dimen/text_size_16</item>
+        <item name="android:typeface">serif</item>
+        <item name="android:drawableLeft">@drawable/email_icon</item>
+        <item name="android:drawablePadding">@dimen/padding_20</item>
+    </style>
+
+
+    <!-- Social link TextView style -->
+    <style name="SocialTextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/margin_15</item>
+        <item name="android:autoLink">web</item>
+        <item name="android:linksClickable">true</item>
+        <item name="android:text">@string/social_link</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textSize">@dimen/text_size_16</item>
+        <item name="android:typeface">serif</item>
+        <item name="android:drawableLeft">@drawable/social_icon</item>
+        <item name="android:drawablePadding">@dimen/padding_20</item>
+    </style>
+
+
+    <!-- Location TextView style -->
+    <style name="LocationTextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/margin_15</item>
+        <item name="android:onClick">openMap</item>
+        <item name="android:text">@string/location_text</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textSize">@dimen/text_size_16</item>
+        <item name="android:typeface">serif</item>
+        <item name="android:drawableLeft">@drawable/location_icon</item>
+        <item name="android:drawablePadding">@dimen/padding_20</item>
+    </style>
+
+</resources>

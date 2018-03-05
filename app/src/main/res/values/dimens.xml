@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    // android:layout_margin dimension 6dp
+    <dimen name="margin_6">6dp</dimen>
+
+    // android:layout_margin dimension 15dp
+    <dimen name="margin_15">15dp</dimen>
+
+    // android:layout_padding dimension 5dp
+    <dimen name="padding_5">5dp</dimen>
+
+    // android:layout_padding dimension 10dp
+    <dimen name="padding_10">10dp</dimen>
+
+    // android:layout_padding dimension 20dp
+    <dimen name="padding_20">20dp</dimen>
+
+    // android:layout_textSize dimension 16sp
+    <dimen name="text_size_16">16sp</dimen>
+
+    // android:layout_textSize dimension 18sp
+    <dimen name="text_size_18">18sp</dimen>
+
+    // android:radius dimension 30dp
+    <dimen name="radius_30">30dp</dimen>
+
+    // android:radius dimension 40dp
+    <dimen name="radius_40">40dp</dimen>
+
+</resources>

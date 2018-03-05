@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/ParentLinearLayout"
+    tools:context="com.example.android.louthbeekeepersassociation.MainActivity">
+
+
+    <ImageView
+        style="@style/ImageView" />
+
+
+        <TextView
+            style="@style/TextViewDescription" />
+
+
+    <LinearLayout
+        style="@style/SecondNestedLinearLayout">
+
+
+        <TextView
+            android:id="@+id/website"
+            style="@style/WebsiteTextView" />
+
+        <TextView
+            android:id="@+id/phone"
+            style="@style/PhoneTextView" />
+
+
+        <TextView
+            android:id="@+id/email"
+            style="@style/EmailTextView" />
+
+
+        <TextView
+            android:id="@+id/social"
+            style="@style/SocialTextView" />
+
+
+        <TextView
+            android:id="@+id/location"
+            style="@style/LocationTextView" />
+
+    </LinearLayout>
+
+</LinearLayout>
